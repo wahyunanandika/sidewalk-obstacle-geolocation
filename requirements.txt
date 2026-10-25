@@ -1,0 +1,17 @@
+# Tested on Google Colab (Python 3.12). Notebooks install what they need in their first cell.
+transformers==4.57.6      # SegFormer checkpoint does not load in transformers 5.x
+torch
+pytorch-lightning
+torchmetrics
+ultralytics
+huggingface_hub
+exifread
+piexif
+pygeomag
+numpy
+pandas
+matplotlib
+pillow
+geopandas
+shapely
+roboflow                  # only for notebook 01 (dataset download)

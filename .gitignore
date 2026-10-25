@@ -1,0 +1,25 @@
+# model weights (hosted on Hugging Face)
+*.pt
+*.ckpt
+*.safetensors
+
+# outputs and caches
+runs/
+focal_cache.csv
+*.gpkg
+
+# datasets (separate licenses)
+datasets/
+sidewalk-2/
+
+# private documents and unpublished photos
+*.docx
+*.pdf
+
+# secrets
+.env
+*.key
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
